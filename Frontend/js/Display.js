@@ -15,7 +15,7 @@ class Display {
     }
 
     imprimirValores(){
-        this.displayValorActual.texContent = this.valorActual;
-        this.displayValorAnterior.texContent = this.ValorAnterior;
+        this.displayValorActual.textContent = this.valorActual;
+        this.displayValorAnterior.textContent = `${this.valorAnterior} ${this.signos[this.tipoOperacion] || ''}`;
     }
 }
