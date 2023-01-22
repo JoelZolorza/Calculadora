@@ -73,3 +73,10 @@ button:focus{
 #valor-anterior {
     font-size: 2em;
 }
+
+
+.larr{
+    font-family: 'Unbounded', cursive;
+    font-weight: 700;
+    
+}
